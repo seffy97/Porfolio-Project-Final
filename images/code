@@ -25,12 +25,11 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
     />
     <title>About Me</title>
   </head>
@@ -52,27 +51,18 @@
   </div>
 </nav>
 </div>
+    <h1 id="name">Sefika Mulalic</h1>
     <p>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-      <p>
-        <img src="/images/selfie.jpg" id="selfie">
-    </p>
-  </p>
-    </div>
-    <div class="col-lg-6">
-    <div id="intro">
-    <h1> Hi! I'm Sefika </h1>
-      <div clas>
-        I'm a front-end developer from the United States
+<div class="container text-center border border-3" id="paragraph1">
+  <div class="row align-items-start" id="maincontent">
+    <div class="col-5">
+            <img src="/images/selfie.jpg" id="selfie">
         </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </p>
+        <div class="col-4" id="info">
+      Hello! My name is Sefika and I currently live in the United States. 
+    </div>
+        </div>
+        </div>
+    </p>
   </body>
 </html>
