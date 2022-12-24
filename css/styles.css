@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h2,
 h3,
 h4,
@@ -8,14 +12,26 @@ h6 {
   font-weight: 600;
   text-align: center;
 }
-
+h1 {
+  margin-top: 70px;
+}
 body {
   background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148967370.jpg?w=2000&t=st=1671832266~exp=1671832866~hmac=9aa4d3a1f38ed6ce8996133b4face8291966d72f0ac3eb157d61dac04e4a9c8e);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 70%;
+  background-size: 100% 72%;
+
 }
 
+footer img {
+  width: 40px;
+}
+
+footer {
+  padding: 90px;
+  text-align: center;
+  
+}
 .mx-auto {
   display: flex;
   justify-content: center;
@@ -23,15 +39,21 @@ body {
   margin-bottom: 50px;
 }
 
-#selfie {
-  height: auto;
-  width: 400px;
-  margin-left: 150px;
-  border-radius: 50px;
+.socials {
+  display: block;
 }
 
-#intro {
+#introparagraph {
   font-family: "Montserrat", sans-serif;
-  margin-top: 150px;
-  margin-left: -50px;
+  margin-top: 100px;
+ 
 }
+
+#selfie {
+  max-width: 70%;
+  height: auto;
+  border-radius: 50px;
+  display: block;
+  margin-left: 100px;
+}
+
