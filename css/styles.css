@@ -18,10 +18,10 @@ div {
 }
 
 body {
-  background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148967370.jpg?w=2000&t=st=1671832266~exp=1671832866~hmac=9aa4d3a1f38ed6ce8996133b4face8291966d72f0ac3eb157d61dac04e4a9c8e);
+  background-image: url(https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/02/6057300-e1656066696312.jpg?zoom=2&resize=1000%2C750&ssl=1);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 72%;
+    max-width: 100%;
 }
 
 footer img {
@@ -33,9 +33,12 @@ footer {
   text-align: center;
 }
 
+h1, p {
+  max-width: 100%;
+}
 
 
-.mx-auto {
+.mx-auto, #topbar{
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -51,23 +54,26 @@ footer {
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
- 
 }
 .col-lg-6 #selfie{
-  width: 50%;
   margin: 0 auto;
+  border-radius: 50px;
+  display: block;
+  flex: 0 0 auto;
+  width: 60%;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%), 0px 0px 10px rgb(0 0 0 / 15%);
 }
 .socials a {
   margin: 20px
 }
 
-#selfie {
-  height: auto;
-  border-radius: 50px;
-  display: block;
-  margin: 0 auto;
+#seflie {
+  width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-h1, p {
-   width: 50%; 
+.mainpage .container {
+      padding: 10px 60px 20px;
 }
