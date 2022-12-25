@@ -1,0 +1,73 @@
+h1 {
+  max-width: 100%;
+
+}
+
+h2 {
+  color: #A26769;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 68px;
+  margin-top: 40px;
+}
+
+
+body {
+  background-image: url(/images/abstract-organic-geometric-shapes-background\ copy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    max-width: 100%;
+}
+
+.btn:hover {
+  background-color: #FFF4F6;
+  color: #7f525a;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn {
+  background-color: #FED6DC;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: #7f525a;
+  transition: background-color 1s;
+
+ 
+}
+
+#projects {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  margin-top: 80px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#projectimg, #weatherdesc {
+    display: block;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#weatherdesc {
+  padding: 100px;
+}
