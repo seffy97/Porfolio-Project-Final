@@ -3,13 +3,13 @@ h1 {
 
 }
 
-h2 {
+h2, h3 {
   color: #A26769;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   text-align: center;
   font-size: 68px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 
@@ -17,7 +17,7 @@ body {
   background-image: url(/images/abstract-organic-geometric-shapes-background\ copy.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .btn:hover {
@@ -27,11 +27,10 @@ body {
 
 .navbar {
   overflow: hidden;
-  position: fixed;
-  bottom: 0;
+ margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  
+  position: absolute;
 }
 
 .btn {
@@ -44,15 +43,14 @@ body {
   vertical-align: middle;
   color: #7f525a;
   transition: background-color 1s;
-
- 
 }
+
 
 #projects {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
-  margin-top: 80px;
+  margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
@@ -60,14 +58,26 @@ body {
 }
 
 #projectimg, #weatherdesc {
-    display: block;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 30px;
-    text-align: center;
+  display: block;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 #weatherdesc {
   padding: 100px;
+}
+#tools {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.skill-icon {
+    width:  100px;
+    height: 100px;
 }
