@@ -5,15 +5,11 @@ body {
 }
 
 h2 {
-  color: #A26769;
+  color: #a26769;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   text-align: center;
   margin-top: 30px;
-}
-
-.container {
-   
 }
 
 #projects {
@@ -35,10 +31,11 @@ h2 {
   display: flex;
   justify-content: center;
   padding: 30px;
+  padding-top: 40px;
   max-width: 30%;
 }
 
-#carouselpark {
+#carouseltravel {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
@@ -68,4 +65,8 @@ h2 {
   display: flex;
   justify-content: center;
   position: absolute;
+}
+
+.carousel {
+  height:200px;
 }
