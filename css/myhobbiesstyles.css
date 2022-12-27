@@ -1,0 +1,71 @@
+body {
+  background-image: url(/images/BG2\ copy.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: #A26769;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container {
+   
+}
+
+#projects {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#carouselgreg {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  max-width: 30%;
+}
+
+#carouselpark {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  max-width: 30%;
+}
+
+#carouselconcert {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  max-width: 30%;
+}
+
+.navbar {
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
