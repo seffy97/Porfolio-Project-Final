@@ -87,3 +87,49 @@ h1, p {
 .cat {
   width: 100%;
 }
+
+.btn:hover {
+  background-color: #FFF4F6;
+  color: #7f525a;
+}
+.btn {
+  background-color: #FED6DC;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: #7f525a;
+  transition: background-color 1s;
+}
+
+#resume {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+#carouselgreg {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+#carouseltravel {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  max-width: 30%;
+  margin: 0 auto;
+}
