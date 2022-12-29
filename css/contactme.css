@@ -1,0 +1,52 @@
+body {
+  background-image: url(/images/BG2\ copy.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #a26769;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+div {
+    display: block;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #A496C1;
+}
+
+span {
+  color: #A496C1;;
+}
+
+.row {
+    max-width: 470px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media (min-width: 1200px) {
+    #contacts{
+        max-width: 970px;
+    }
+}
+
+#form {
+  padding: 20px;
+}
+
