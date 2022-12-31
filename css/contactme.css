@@ -32,6 +32,10 @@ span {
   color: #A496C1;;
 }
 
+.container {
+  justify-content: center;
+}
+
 .row {
     max-width: 470px;
     background-color: white;
@@ -45,8 +49,3 @@ span {
         max-width: 970px;
     }
 }
-
-#form {
-  padding: 20px;
-}
-
