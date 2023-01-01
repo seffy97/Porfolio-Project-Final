@@ -56,10 +56,4 @@ div, #contacts, .container {
     font-size: 15px;
     align-items: center;
   }
-
-.container {
-  max-width: 90%;
-  font-size: 15px;
-  margin: 0 auto;
-}
 }
