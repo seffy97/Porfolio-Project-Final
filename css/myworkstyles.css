@@ -96,5 +96,13 @@ body {
         max-width: 100%;
         max-height: 70%;
     }
+
+  div#tools.container {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  #tools {
+    width: 90%;
+  }
 }
 
